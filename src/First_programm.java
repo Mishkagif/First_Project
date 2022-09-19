@@ -1,5 +1,5 @@
 public class First_programm {
-    public static void main(String[] args) {
+    public static void main(String_study[] args) {
      String LondonBritishCapital ="Uk";
         String londonCity ="Uk";
         String EnglandCity ="British";
