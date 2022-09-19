@@ -1,12 +1,16 @@
 public class First_programm {
     public static void main(String[] args) {
-        System.out.println("Hello, dear");
-        String s1 = "java";
-        String s2 = "java";
-        String str = new String("java");
+     String LondonBritishCapital ="Uk";
+        String londonCity ="Uk";
+        String EnglandCity ="British";
 
-        System.out.println(s1.equals(s2));
-        System.out.println(s2.equals(str));
+
+
+        System.out.println(LondonBritishCapital.equalsIgnoreCase(londonCity));
+        System.out.println(EnglandCity.indexOf("t"));
+        System.out.println(EnglandCity.lastIndexOf("i"));
+        System.out.println(EnglandCity.substring(0,7));
+
     }
 }
 
