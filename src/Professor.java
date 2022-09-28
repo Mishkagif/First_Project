@@ -16,7 +16,7 @@ public class Professor {
 
 
 
-    String mail(String message) {
+    String mail() {
 
     return name + ": Send message";
     }
